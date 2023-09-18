@@ -9,13 +9,6 @@
 body {
     background-color: #ffeede;
 
-    /* kozepre helyezi */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* kozepre pozi, teljes nezet */
-    height: 100vh;
-    flex-direction: column; /* vertikalisan helyezi el a dolgokat */
 }
 
 button {
@@ -29,13 +22,13 @@ button {
     font-size: 200px;
     font-family: monospace;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
 
-    span {
-        height: 240px;
-    }
-    
+    position: absolute; /* saroktol nezve meri */
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
 }
