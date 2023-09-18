@@ -1,0 +1,41 @@
+/* --- CSS RESET --- */
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+} 
+/* --- CSS RESET END --- */
+
+body {
+    background-color: #ffeede;
+
+    /* kozepre helyezi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* kozepre pozi, teljes nezet */
+    height: 100vh;
+    flex-direction: column; /* vertikalisan helyezi el a dolgokat */
+}
+
+button {
+    background-color: #1C5A4E;
+    width: 240px;
+    height: 240px;
+
+    border-radius: 120px; /* lekerekiti az adott elemet */
+
+    color: #ffeede;
+    font-size: 200px;
+    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        height: 240px;
+    }
+    
+}
